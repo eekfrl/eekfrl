@@ -1,1 +1,1 @@
-# <a href="https://github.com/eekfrl/eekfrl/index.html"> eekfrl </a>
+# <a href="https://eekfrl.github.io/eekfrl/index.html"> eekfrl </a>
