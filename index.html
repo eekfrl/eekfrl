@@ -4195,7 +4195,31 @@
             span.reserved {
                 font-size: 1.2rem;
             }
+
+            /* 태블릿 */
+            @media screen and (min-width: 769px) and (max-width: 1024px) {
+                #container10>.wrapper>.inner> :nth-child(1) {
+                    width: calc(60% +(var(--gutters) / 2));
+                }
+                .container.style10>.wrapper>.inner {
+                    --gutters: -8rem;
+                    --spacing: 4rem;
+                    padding: var(--padding-vertical) var(--padding-horizontal);
+                }
+                .container.style10.columns>.wrapper>.inner {
+                    flex-wrap: wrap;
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 55px;
+                }
+                .container.style8>.wrapper>.inner {
+                    --gutters: -8rem;
+                    --spacing: 1rem;
+                    padding: var(--padding-vertical) var(--padding-horizontal);
+                }
+            }
     </style>
+
     <noscript>
         <style>
             body {
